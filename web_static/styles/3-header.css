@@ -3,7 +3,11 @@ header {
   height: 70px;
   width: 100%;
   border-bottom: 1px solid #cccccc;
-  background-image: url(../images/logo.png);
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-left: 20px;
   background-repeat: no-repeat;
-  background-position: 20px 50%;
 }
